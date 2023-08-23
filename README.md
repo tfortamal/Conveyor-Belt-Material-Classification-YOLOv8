@@ -69,7 +69,7 @@ contents of 1.txt --> [the lable file contains class id and 4 points]
 > 1 0.5385044642857144 0.5376984126984128 0.6640625000000001 0.8725198412698415 (for YOLO models)
 
 ## Data Structure for Classification:
-
+```bash
 ClassificationData______
                         |
                         |____train________
@@ -104,6 +104,7 @@ ClassificationData______
                                           |
                                           |_____pallet_j1c1___[Contains image only]
 
+```
 
 ---
 ## License 
