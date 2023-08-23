@@ -14,7 +14,7 @@ class_name | class_id | number_of_images |
 
 
 ## **Data Structure for Detection:**
-
+'''
 DetectionData______
                   |
                   |____train________
@@ -59,7 +59,7 @@ DetectionData______
                                     |_____iron_ore_fines_j1c1___[Contains image and label]
                                     |
                                     |_____pallet_j1c1___[Contains image and label]
-
+'''
 ### lable format:
 lable for 1.jpg --> 1.txt
 contents of 1.txt --> [the lable file contains class id and 4 points]
