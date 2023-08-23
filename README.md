@@ -1,4 +1,4 @@
-### ⚠️ This is just a demonstration Data set is The conveyor belt J1C1 
+### ⚠️ This is just a demonstration of YOLOv8 implementation to solve real-life problems. The data set is for private use only. However, all the source code is available. In my example the name of the conveyor belt J1C1 
 
 # J1C1 Material Dataset Description:
 
