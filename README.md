@@ -1,10 +1,10 @@
-
+### ⚠️ This is just a demonstration Data set is The conveyor belt J1C1 
 
 # J1C1 Material Dataset Description:
 
 
-class_name | class_id | number_of_images |
- ------------ | ------------- | ------------ | 
+class_name    | class_id      | number_of_images                |
+ ------------ | ------------- | ------------                    | 
 | dolomite_limestone_j1c1     | 0         |        10000        |
 | empty_j1c1                  | 1         |        10000        |
 | half_filled_j1c1            | 2         |        10000        |
