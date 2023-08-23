@@ -6,15 +6,10 @@
 class_name | class_id | number_of_images |
  ------------ | ------------- | ------------ | 
 | dolomite_limestone_j1c1     | 0         |        10000        |
-
 | empty_j1c1                  | 1         |        10000        |
-
 | half_filled_j1c1            | 2         |        10000        |
-
 | iron_ore_fines_j1c1         | 3         |        10000        |
-
 | pallet_j1c1                 | 4         |        10000        |
-
 | total                       |           |        50000        |
 
 
