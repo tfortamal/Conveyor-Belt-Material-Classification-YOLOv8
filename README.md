@@ -14,7 +14,7 @@ class_name | class_id | number_of_images |
 
 
 ## **Data Structure for Detection:**
-'''
+'''bash
 DetectionData______
                   |
                   |____train________
