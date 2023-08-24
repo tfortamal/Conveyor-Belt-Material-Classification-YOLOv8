@@ -124,7 +124,7 @@ contents of 1.txt --> [the label file contains class id and 4 points]
 > 1 0.5385044642857144 0.5376984126984128 0.6640625000000001 0.8725198412698415 (for YOLO models)
 
 # Training the model
-Link to file: [trainClassify.py]()
+Link to file: [trainClassify.py](https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/8c18aaa4d8fa4924ced5b8e6bc8005699ef38ae1/code/trainClassify.py)
 ```
 from ultralytics import YOLO
 
@@ -136,8 +136,7 @@ results = model.train(data='/Users/tamaldas/Desktop/DSS/cBelt/CustomDataSet/J1C1
 
 ```
 # Validating the trained model
-Link to file: [valClassify.py]()
-
+Link to file: [valClassify.py](https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/8c18aaa4d8fa4924ced5b8e6bc8005699ef38ae1/code/valClassify.py)
 > YOLOv8 models automatically remember their training settings, so you can validate a model at the same image size and on the original dataset easily with just yolo val model=yolov8n.pt or model('yolov8n.pt').val()
 
 ```
