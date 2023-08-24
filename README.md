@@ -107,6 +107,9 @@ ClassificationData______
                                           |_____pallet_j1c1___[Contains image only]
 
 ```
+# Training the model
+```
+```
 
 ---
 ## License 
