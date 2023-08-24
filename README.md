@@ -173,4 +173,4 @@ Link to file: [materialClassificarionj1c1.py](https://github.com/tfortamal/Conve
 
 ---
 ## License 
-### Author: _**Tamal Das** August, 2023 for **[Divsoft Solutions](https://divsoftsolutions.com)**_
+### Author: _**Tamal Das** August, 2023
