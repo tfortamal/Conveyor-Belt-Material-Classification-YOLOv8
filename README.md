@@ -171,6 +171,5 @@ metrics.box.maps   # a list contains map50-95 of each category
 ## Results from running the model video
 Link to file: [materialClassificarionj1c1.py](https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/0bc66e292c7381385366e3268649da987ed2690e/code/materialClassificarionj1c1.py)
 
----
-## License 
+
 ### Author: _**Tamal Das** August, 2023
