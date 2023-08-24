@@ -156,8 +156,9 @@ metrics.box.maps   # a list contains map50-95 of each category
 ```
 ## Training Results
 <p float="left">
-  <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/9527fa3c3bf636cf3329134de2a50adeb5825505/train_results/val_batch2_pred.jpg" width="300" />
-  <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/9527fa3c3bf636cf3329134de2a50adeb5825505/train_results/val_batch0_labels.jpg" width="300"/> 
+    <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/9527fa3c3bf636cf3329134de2a50adeb5825505/train_results/val_batch0_pred.jpg" width="300" />
+    <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/9527fa3c3bf636cf3329134de2a50adeb5825505/train_results/val_batch1_labels.jpg" width="300"/>
+    <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/389f7c0845dcf3eed409c883edb88966300c280d/train_results/val_batch2_pred.jpg" width="300"/> 
 </p>
 
 <p align="center">
