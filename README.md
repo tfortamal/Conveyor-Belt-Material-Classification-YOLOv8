@@ -4,7 +4,7 @@
     <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/1ddd61c07913985b172c1db8b59fdb3e6574628d/img/cbelt.gif" width=800>
 </p>
 
-⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification. The project provides code for procedural-oriented programming implementations in Python.
+⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification on custom dataset. The project provides code for procedural-oriented programming implementations in Python.    
 
 Requirements Instalment: [Quickstart](https://docs.ultralytics.com/quickstart/)
 
@@ -148,7 +148,7 @@ metrics.box.maps   # a list contains map50-95 of each category
 
 
 ```
-
+## Results
 ---
 ## License 
 ### Author: _**Tamal Das** August, 2023 for **[Divsoft Solutions](https://divsoftsolutions.com)**_
