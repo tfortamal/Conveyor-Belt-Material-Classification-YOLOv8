@@ -1,4 +1,6 @@
-### ⚠️ This is just a demonstration of YOLOv8 implementation to solve real-life problems. The data set is for private use only. However, all the source code is available. In my example the name of the conveyor belt J1C1 
+# Conveyor Belt Material Classification YOLOv8
+### ⚠️ This is just a demonstration of YOLOv8 implementation to solve real-life problems. All the source code is available. 
+#### In my example the name of the conveyor belt J1C1 
 
 # J1C1 Material Dataset Description:
 
@@ -61,9 +63,9 @@ DetectionData______
                                     |_____pallet_j1c1___[Contains image and label]
 ```
 
-### lable format:
-lable for 1.jpg --> 1.txt
-contents of 1.txt --> [the lable file contains class id and 4 points]
+### label format:
+label for 1.jpg --> 1.txt
+contents of 1.txt --> [the label file contains class id and 4 points]
 > class_id x1 y1 x2 y2 x3 y3 x4 y4
 > 2 250 79 390 676 1077 667 474 44 (not normalized for YOLO models)
 > 1 0.5385044642857144 0.5376984126984128 0.6640625000000001 0.8725198412698415 (for YOLO models)
