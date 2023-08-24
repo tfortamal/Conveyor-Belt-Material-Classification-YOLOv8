@@ -136,7 +136,7 @@ results = model.train(data='/Users/tamaldas/Desktop/DSS/cBelt/CustomDataSet/J1C1
 
 ```
 # Validating the trained model
-Link to file: [trainClassify.py]()
+Link to file: [valClassify.py]()
 
 > YOLOv8 models automatically remember their training settings, so you can validate a model at the same image size and on the original dataset easily with just yolo val model=yolov8n.pt or model('yolov8n.pt').val()
 
