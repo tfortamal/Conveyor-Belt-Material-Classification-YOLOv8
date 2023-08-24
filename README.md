@@ -11,7 +11,7 @@ Requirements installation:
 # Install the ultralytics package from PyPI
 pip install ultralytics
 ```
-[Quickstart](https://docs.ultralytics.com/quickstart/)
+Click here for [Quickstart](https://docs.ultralytics.com/quickstart/)
 
 For more details check the ultralytics YOLOv8 Github [repository](https://github.com/ultralytics/ultralytics) and the YOLOv8 python [documentation](https://docs.ultralytics.com/usage/python/#train).
 
@@ -154,8 +154,9 @@ metrics.box.maps   # a list contains map50-95 of each category
 
 
 ```
-## Results
+## Results 
 Link to file: [materialClassificarionj1c1.py](https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/0bc66e292c7381385366e3268649da987ed2690e/code/materialClassificarionj1c1.py)
 
+---
 ## License 
 ### Author: _**Tamal Das** August, 2023 for **[Divsoft Solutions](https://divsoftsolutions.com)**_
