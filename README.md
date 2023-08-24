@@ -28,9 +28,10 @@ class_name    | class_id      | number_of_images                |
 | total                       |           |        50000        |
 
 
-## Data Structure for Classification:
+## Data format for training YOLO on custom data
+### Data Structure for Classification:
 ```bash
-
+> Labels are needed only for detection.
 ClassificationData______
                         |
                         |____train________
@@ -114,7 +115,7 @@ DetectionData______
                                     |
                                     |_____pallet_j1c1___[Contains image and label]
 ```
-> labels are needed only for detection.
+> Labels are needed only for detection.
 ### label format:
 label for 1.jpg --> 1.txt
 contents of 1.txt --> [the label file contains class id and 4 points]
