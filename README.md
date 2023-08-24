@@ -1,8 +1,7 @@
 # Conveyor Belt Material Classification YOLOv8
----
 ### ⚠️ This is just a demonstration of YOLOv8 implementation to solve real-life problems. All the source code is available. 
 #### In my example the name of the conveyor belt J1C1 
----
+
 # J1C1 Material Dataset Description:
 
 class_name    | class_id      | number_of_images                |
