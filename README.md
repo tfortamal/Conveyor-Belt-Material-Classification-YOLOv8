@@ -6,7 +6,12 @@
 
 ⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification on custom data. The project provides code for procedural-oriented programming implementations in Python.    
 
-Requirements Instalment: [Quickstart](https://docs.ultralytics.com/quickstart/)
+Requirements Instalment: 
+```
+# Install the ultralytics package from PyPI
+pip install ultralytics
+```
+[Quickstart](https://docs.ultralytics.com/quickstart/)
 
 For more details check the ultralytics YOLOv8 Github [repository](https://github.com/ultralytics/ultralytics) and the YOLOv8 python [documentation](https://docs.ultralytics.com/usage/python/#train).
 
