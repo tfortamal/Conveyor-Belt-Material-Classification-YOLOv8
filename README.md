@@ -23,6 +23,45 @@ class_name    | class_id      | number_of_images                |
 | total                       |           |        50000        |
 
 
+## Data Structure for Classification:
+```bash
+
+ClassificationData______
+                        |
+                        |____train________
+                        |                 |_____dolomite_limestone_j1c1___[Contains image only]
+                        |                 |                    
+                        |                 |_____empty_j1c1___[Contains image only]
+                        |                 |                    
+                        |                 |_____half_filled_j1c1___[Contains image only]
+                        |                 |                    
+                        |                 |_____iron_ore_fines___[Contains image only]
+                        |                 |                    
+                        |                 |_____pallet_j1c1___[Contains image only]            
+                        |____test_________
+                        |                 |_____dolomite_limestone_j1c1___[Contains image only]
+                        |                 |
+                        |                 |_____empty_j1c1___[Contains image only]
+                        |                 |
+                        |                 |_____half_filled_j1c1___[Contains image only]
+                        |                 |
+                        |                 |_____iron_ore_fines___[Contains image only]
+                        |                 |
+                        |                 |_____pallet_j1c1___[Contains image only]
+                        |
+                        |____val__________
+                                          |_____dolomite_limestone_j1c1___[Contains image only]
+                                          |
+                                          |_____empty_j1c1___[Contains image only]
+                                          |
+                                          |_____half_filled_j1c1___[Contains image only]
+                                          |
+                                          |_____iron_ore_fines___[Contains image only]
+                                          |
+                                          |_____pallet_j1c1___[Contains image only]
+
+```
+
 ## **Data Structure for Detection:**
 ```bash
 DetectionData______
@@ -78,44 +117,6 @@ contents of 1.txt --> [the label file contains class id and 4 points]
 > 2 250 79 390 676 1077 667 474 44 (not normalized for YOLO models)
 > 1 0.5385044642857144 0.5376984126984128 0.6640625000000001 0.8725198412698415 (for YOLO models)
 
-## Data Structure for Classification:
-```bash
-
-ClassificationData______
-                        |
-                        |____train________
-                        |                 |_____dolomite_limestone_j1c1___[Contains image only]
-                        |                 |                    
-                        |                 |_____empty_j1c1___[Contains image only]
-                        |                 |                    
-                        |                 |_____half_filled_j1c1___[Contains image only]
-                        |                 |                    
-                        |                 |_____iron_ore_fines___[Contains image only]
-                        |                 |                    
-                        |                 |_____pallet_j1c1___[Contains image only]            
-                        |____test_________
-                        |                 |_____dolomite_limestone_j1c1___[Contains image only]
-                        |                 |
-                        |                 |_____empty_j1c1___[Contains image only]
-                        |                 |
-                        |                 |_____half_filled_j1c1___[Contains image only]
-                        |                 |
-                        |                 |_____iron_ore_fines___[Contains image only]
-                        |                 |
-                        |                 |_____pallet_j1c1___[Contains image only]
-                        |
-                        |____val__________
-                                          |_____dolomite_limestone_j1c1___[Contains image only]
-                                          |
-                                          |_____empty_j1c1___[Contains image only]
-                                          |
-                                          |_____half_filled_j1c1___[Contains image only]
-                                          |
-                                          |_____iron_ore_fines___[Contains image only]
-                                          |
-                                          |_____pallet_j1c1___[Contains image only]
-
-```
 # Training the model
 Link to file: [trainClassify.py]()
 ```
