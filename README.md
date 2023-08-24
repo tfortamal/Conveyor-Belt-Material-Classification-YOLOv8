@@ -4,14 +4,14 @@
     <img src="" width=470
 </p>
 
-This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification. The project provides code for procedural-oriented programming implementations in Python.
+⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification. The project provides code for procedural-oriented programming implementations in Python.
+
+Requirements Instalment: [Quickstart](https://docs.ultralytics.com/quickstart/)
 
 For more details check the ultralytics YOLOv8 Github [repository](https://github.com/ultralytics/ultralytics) and the YOLOv8 python [documentation](https://docs.ultralytics.com/usage/python/#train).
 
-### ⚠️ This is just a demonstration of YOLOv8 implementation to solve real-life problems. All the source code is available. 
-#### In my example the name of the conveyor belt J1C1 
 
-# J1C1 Material Dataset Description:
+# Conveyor belt (J1C1) Material Dataset Description:
 
 class_name    | class_id      | number_of_images                |
  ------------ | ------------- | ------------                    | 
