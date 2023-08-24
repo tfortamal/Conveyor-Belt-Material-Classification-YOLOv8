@@ -108,7 +108,7 @@ ClassificationData______
 
 ```
 # Training the model
-Link to: [trainClassify.py]()
+Link to file: [trainClassify.py]()
 ```
 from ultralytics import YOLO
 
@@ -120,16 +120,23 @@ results = model.train(data='/Users/tamaldas/Desktop/DSS/cBelt/CustomDataSet/J1C1
 
 ```
 # Validating the trained model
-Link to: [trainClassify.py]()
+Link to file: [trainClassify.py]()
+
+> YOLOv8 models automatically remember their training settings, so you can validate a model at the same image size and on the original dataset easily with just yolo val model=yolov8n.pt or model('yolov8n.pt').val()
 
 ```
 from ultralytics import YOLO
 
-# Load a model
-model = YOLO('yolov8n-cls.pt')  # load a pre-trained model (recommended for training)
+# Load the trained model
+model = YOLO('/Users/tamaldas/Desktop/DSS/cBelt/YOLOv8ClassificationTesting/J1C1/runs/classify/train2/weights/best.pt')  # load a custom model
 
-# Train the model
-results = model.train(data='/Users/tamaldas/Desktop/DSS/cBelt/CustomDataSet/J1C1DataYOLO/classificationData/Data', epochs=20, imgsz=640)
+# Validate the model
+metrics = model.val()  # no arguments needed, dataset and settings remembered
+metrics.box.map    # map50-95
+metrics.box.map50  # map50
+metrics.box.map75  # map75
+metrics.box.maps   # a list contains map50-95 of each category
+
 
 ```
 
