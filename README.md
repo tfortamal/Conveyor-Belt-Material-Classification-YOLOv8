@@ -1,10 +1,10 @@
-# Conveyor Belt Material Classification YOLOv8
+# Conveyor Belt Material Classification YOLOv8 on custom Data
 
 <p align="center">
     <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/1ddd61c07913985b172c1db8b59fdb3e6574628d/img/cbelt.gif" width=800>
 </p>
 
-⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification on custom dataset. The project provides code for procedural-oriented programming implementations in Python.    
+⚠️ This repository contains the code for object classification using the YOLOv8 algorithm by ultralytics for object classification on custom data. The project provides code for procedural-oriented programming implementations in Python.    
 
 Requirements Instalment: [Quickstart](https://docs.ultralytics.com/quickstart/)
 
@@ -109,7 +109,7 @@ DetectionData______
                                     |
                                     |_____pallet_j1c1___[Contains image and label]
 ```
-
+> labels are needed only for detection.
 ### label format:
 label for 1.jpg --> 1.txt
 contents of 1.txt --> [the label file contains class id and 4 points]
