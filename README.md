@@ -1,5 +1,10 @@
 # Conveyor Belt Material Classification YOLOv8 on custom Data
 
+# Table of Contents
+* [Dataset Description](# Conveyor belt (J1C1) Material Dataset Description:)
+*
+*
+
 <p align="center">
     <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/42454e769405c4c7922bfc54ab5806931bddf823/img/cbelt.gif" width=800>
 </p>
