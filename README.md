@@ -1,7 +1,7 @@
 # Conveyor Belt Material Classification YOLOv8 on custom Data
 
 # Table of Contents
-* [Dataset Description](# Conveyor belt (J1C1) Material Dataset Description:)
+* [Dataset Description](# Conveyor belt (J1C1) Material Dataset Description)
 *
 *
 
@@ -21,7 +21,7 @@ Click here for [Quickstart](https://docs.ultralytics.com/quickstart/)
 For more details check the ultralytics YOLOv8 Github [repository](https://github.com/ultralytics/ultralytics) and the YOLOv8 python [documentation](https://docs.ultralytics.com/usage/python/#train).
 
 
-# Conveyor belt (J1C1) Material Dataset Description:
+# Conveyor belt (J1C1) Material Dataset Description
 
 class_name    | class_id      | number_of_images                |
  ------------ | ------------- | ------------                    | 
