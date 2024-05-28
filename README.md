@@ -3,7 +3,6 @@
 # Table of Contents
 * [Dataset Description](https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/main/README.md#conveyor-belt-j1c1-material-dataset-description)
 * [Requirements installation]()
-*
 
 <p align="center">
     <img src="https://github.com/tfortamal/Conveyor-Belt-Material-Classification-YOLOv8/blob/42454e769405c4c7922bfc54ab5806931bddf823/img/cbelt.gif" width=800>
